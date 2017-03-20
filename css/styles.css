@@ -1,0 +1,63 @@
+body{
+	font-family: 'Muli', sans-serif;
+	padding-left: 100px;
+}
+.chess-board{
+	position: relative;
+}
+.square{
+	width:50px;
+	height:50px;
+	position:absolute;
+	border: 1px solid #676767;
+	box-sizing: border-box;
+	cursor: pointer;
+	padding:15px;
+	
+}
+.square.white{
+	background-color: #f7f7f7;
+	color:#252525;
+}
+.square.black{
+	background-color: #676767;
+	color:#eaeaea;
+}
+.square-green{
+	background-color: #27ae60;
+	color:white;
+	border: 1px solid #16a085;
+}
+.square-red{
+	border:2px solid #e74c3c;
+	background-color: #e74c3c!important;
+	color:white!important;
+	transition: background .3s ease-in-out;
+}
+.tool-tip{
+	width:150px;
+	height:50px;
+	background-color: white;
+	border: 1px solid #eaeaea;
+	color:#999;
+	padding: 20px;
+	position:absolute;
+}
+.out-put{
+	position:absolute;
+	top:500px;
+}
+.out-put h3{
+	font-size: 18px;
+	font-weight: 200;
+	margin: 0;
+	text-transform: uppercase;
+	color:#949494;
+}
+.out-put p{
+	margin:0 0 15px 0;
+}
+.out-put h4{
+	color: #2c3e50;
+	text-transform: none;
+}
